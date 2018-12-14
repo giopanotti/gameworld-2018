@@ -1,0 +1,330 @@
+body {
+  background-image: url("../images/halo.jpg");
+  background-size: cover;
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 1%;
+  margin-right: 1%;
+  color: rgb(255, 255, 255);
+}
+
+#header {
+  height: 90px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  opacity: 0.8;
+  margin-bottom: 10px;
+  font-family: fantasy;
+}
+
+.gameworld {
+  font-size: 70px;
+  color: rgb(251, 251, 251);
+  margin-left: 1%;
+  font-family: fantasy;
+}
+
+a.gameworld {
+  text-decoration: none;
+}
+
+.gameworld:hover {
+  color: rgb(97, 97, 97)
+}
+
+.navigation-button {
+  width: 6%;
+  height: 55px;
+  float: right;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 35px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navigation-button:hover {
+  background-color: rgb(97, 97, 97);
+}
+
+.navigation-button-corner {
+  width: 6%;
+  height: 55px;
+  float: right;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 35px;
+  border-bottom-right-radius: 25px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navigation-button-corner:hover {
+  background-color: rgb(97, 97, 97);
+}
+
+#footer {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 25px;
+  opacity: 0.75;
+  display: block;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.image {
+  height: 620px;
+  width: 100%;
+  border-radius: 25px;
+}
+
+#masseffect {
+  float: left;
+  width: 69%;
+}
+
+#side-bar {
+  float: right;
+  width: 30%;
+}
+
+.playstation {
+  height: 200px;
+  border-radius: 25px;
+  opacity: 0.8;
+  display: block;
+  width: 100%;
+}
+
+.xbox {
+  height: 200px;
+  border-radius: 25px;
+  margin-top: 10px;
+  opacity: 0.8;
+  display: block;
+  width: 100%;
+}
+
+.steam {
+  height: 200px;
+  border-radius: 25px;
+  margin-top: 10px;
+  opacity: 0.8;
+  display: block;
+  width: 100%;
+}
+
+.playstation:hover {
+  opacity: 0.6;
+}
+
+.xbox:hover {
+  opacity: 0.6;
+}
+
+.steam:hover {
+  opacity: 0.6;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.about-container {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.8;
+  width: 30%;
+  height: 620px;
+  border-radius: 25px;
+  color: rgb(255, 255, 255);
+  float: left;
+}
+
+.text {
+  text-align: center;
+  padding: 25px;
+  font-size: 16px;
+}
+
+.rickroll-container {
+  float: right;
+  width: 100%;
+}
+
+.KFC {
+  width: 69%;
+  height: 620px;
+  border-radius: 25px;
+  margin-left: 1%;
+}
+
+.text-image {
+  position: absolute;
+  bottom: 33%;
+  left: 3%;
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  font-size: 50px;
+}
+
+.text2-image {
+  position: absolute;
+  bottom: 25%;
+  left: 2%;
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  font-size: 90px;
+}
+
+.contact-container {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.8;
+  width: 30%;
+  height: 620px;
+  border-radius: 25px;
+  color: rgb(255, 255, 255);
+  float: left;
+  margin-bottom: 4px;
+}
+
+.contact-items {
+  margin: 10px;
+  width: 96%;
+}
+
+.contact-items2 {
+  margin: 10px;
+  width: 97%;
+}
+
+.contact-item1 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.halo5 {
+  width: 69%;
+  height: 620px;
+  border-radius: 25px;
+  float: right;
+}
+
+.games-container {
+  width: 100%;
+  height: 620px;
+  border-radius: 25px;
+  float: left;
+  opacity: 0.9;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  margin-bottom: 4px;
+  overflow: auto;
+}
+
+.games-container::-webkit-scrollbar {
+    display: none;
+}
+
+.contact-png {
+  width: 100%;
+  height: 135px;
+}
+
+.product-item {
+  height: 450px;
+  width: 350px;
+  float: left;
+  margin-bottom: 160px;
+  margin-left: 16px;
+  font-family: fantasy;
+}
+
+.game-image {
+  height: 100%;
+  width: 100%;
+  float: left;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+.price {
+ width: 100%;
+ height: 20px;
+ border-radius: 25px;
+ background-color: rgb(40, 40, 40);
+ margin-top: 470px;
+ text-align: center;
+}
+
+.name {
+  margin-top: 10px;
+  text-align: center;
+  height: 30px;
+  border-radius: 25px;
+  background-color: rgb(40, 40, 40);
+  font-size: 25px;
+}
+
+.order {
+  font-size: 40px;
+  margin-top: 10px;
+  float: left;
+}
+
+.checkbox {
+  float: right;
+  margin-top: 20px;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+
+.addToCart {
+  margin-top: 560px;
+  margin-left: 32px;
+}
+
+.checkout-container {
+  width: 100%;
+  height: 620px;
+  opacity: 0.8;
+  background-color: rgb(0, 0, 0);
+  border-radius: 25px;
+  text-align: center;
+}
+
+.checkout-container2 {
+  width: 100%;
+  height: 620px;
+  opacity: 0.8;
+  background-color: rgb(0, 0, 0);
+  border-radius: 25px;
+  text-align: center;
+}
+
+.checkout-image {
+  height: 275px;
+  width: 200px;
+  margin-left: 32px;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+.tables {
+  height: 275px;
+}
+
+.disc {
+  width: 400px;
+}
+
+.disc2 {
+  width: 800px;
+}

@@ -1,0 +1,1 @@
+&copy; Giovanni de Roij, 2018
